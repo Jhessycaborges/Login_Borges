@@ -37,10 +37,20 @@
         </div>
       </nav>
 
-      <form>
-        <div>
+      <form class="p-4 bg-white shadow rounded text-center">
+        <div class="mb-3">
           <label for="email" class="form-label">E-mail:</label>
           <input type="email" class="form-control" id="email" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Senha:</label>
+          <input type="password" class="form-control" id="password" required />
+        </div>
+
+        <div>
+          <input type="checkbox" class="form-check-input" id="rememberMe" />
+          <label class="form-check-label" for="rememberMe">Lembrar-me</label>
         </div>
       </form>
     </main>
