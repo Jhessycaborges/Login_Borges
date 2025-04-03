@@ -25,11 +25,11 @@
   <body
     class="d-flex justify-content-center align-items-center vh-100 bg-light"
   >
-    <main class="w-50">
+    <main class="container w-50">
       <nav class="navbar bg-dark" data-bs-theme="dark">
         <div class="container justify-content-center">
           <span
-            class="navbar-brand fw-bold h1"
+            class="navbar-brand mb-0 fw-bold h1"
             style="font-size: 2rem; font-family: 'Inter', sans-serif"
           >
             Login
@@ -48,10 +48,17 @@
           <input type="password" class="form-control" id="password" required />
         </div>
 
-        <div>
+        <div class="mb-3 form-check text-start">
           <input type="checkbox" class="form-check-input" id="rememberMe" />
           <label class="form-check-label" for="rememberMe">Lembrar-me</label>
         </div>
+
+        <button type="submit" class="btn btn-outline-primary w-100 mb-2">
+          Entrar
+        </button>
+        <a href="cadastro.html" class="btn btn-outline-primary w-100 mb-2"
+          >Cadastrar-se</a
+        >
       </form>
     </main>
   </body>
